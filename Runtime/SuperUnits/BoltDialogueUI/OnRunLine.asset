@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: OnRunLine
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[{"key":"eventTrigger","label":"Event
+      Trigger","summary":null,"hideLabel":true}],"valueInputDefinitions":[],"valueOutputDefinitions":[{"_type":"System.String","key":"Line","label":"Line","summary":"String
+      from the story that is localised","hideLabel":false}],"title":"On Run Line","summary":"Requires
+      the BoltDialogueUI, called when a line of dialogue is to be displayed.\nThe
+      Line is automatically localised.","pan":{"x":-312.0,"y":-44.0},"zoom":1.0,"elements":[{"argumentCount":1,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"RUN_LINE","$type":"System.String"}},"position":{"x":-276.0,"y":-168.0},"guid":"7a774291-c582-4e4d-9f27-b885fa2e676b","$version":"A","$type":"Bolt.CustomEvent","$id":"11"},{"defaultValues":{},"position":{"x":-45.0,"y":-163.0},"guid":"96743bbc-14a8-4fc3-9717-af4306c5b4da","$version":"A","$type":"Bolt.GraphOutput","$id":"13"},{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{},"position":{"x":-549.0,"y":-171.0},"guid":"05d579bf-1d2f-4f1e-991b-bca9bf896611","$version":"A","$type":"Bolt.SuperUnit","$id":"15"},{"sourceUnit":{"$ref":"11"},"sourceKey":"trigger","destinationUnit":{"$ref":"13"},"destinationKey":"eventTrigger","guid":"851c080b-673c-4557-b9b6-cd51a74015bf","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"Dialogue
+      Runner GameObject","destinationUnit":{"$ref":"11"},"destinationKey":"target","guid":"c6611355-23e9-4425-9858-89d6e786246b","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"argument_0","destinationUnit":{"$ref":"13"},"destinationKey":"Line","guid":"59208cfb-6435-4c82-8fa4-382e336ecb63","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 78d72bccbf368974fa7fe36522ef30bd, type: 2}

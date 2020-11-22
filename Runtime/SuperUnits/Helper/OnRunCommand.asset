@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: OnRunCommand
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[{"key":"eventTrigger","label":"Event
+      Trigger","summary":null,"hideLabel":true}],"valueInputDefinitions":[],"valueOutputDefinitions":[{"_type":"System.String","key":"Command
+      Text","label":"Command Text","summary":null,"hideLabel":false}],"title":"On
+      Run Command","summary":"Triggers on the OnCommand event in the from the DialogueUI.\nIf
+      you''re using the BoltDialogueUI, then there''s no setup!\nIf you''re using
+      the default DialogueUI, setup by subscribing the TriggerOnCommand function
+      on the Bolt Helper to the default DialogueUI''s OnCommand event.\nMake sure
+      its the one under the \"Dynamic String\" dropdown!","pan":{"x":-119.5,"y":30.5},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":89.0,"y":-37.0},"guid":"34b3183e-d455-4e5c-8142-643bc6bc10dd","$version":"A","$type":"Bolt.GraphOutput","$id":"11"},{"argumentCount":1,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"RUN_COMMAND","$type":"System.String"}},"position":{"x":-171.0,"y":-42.0},"guid":"b67e1cf4-6066-436f-8df2-4eda68a67a6b","$version":"A","$type":"Bolt.CustomEvent","$id":"13"},{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{},"position":{"x":-455.0,"y":-38.0},"guid":"15cf9298-e180-47ee-b4e6-02eb8d6a2103","$version":"A","$type":"Bolt.SuperUnit","$id":"15"},{"sourceUnit":{"$ref":"13"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"eventTrigger","guid":"5b647605-4535-4328-adca-8a14f6c59658","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"argument_0","destinationUnit":{"$ref":"11"},"destinationKey":"Command
+      Text","guid":"6f5adb21-0848-49aa-ada4-9664fff04f91","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"Dialogue
+      Runner GameObject","destinationUnit":{"$ref":"13"},"destinationKey":"target","guid":"c3d19af2-641d-4e1d-8bf4-ef602a3f5066","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 78d72bccbf368974fa7fe36522ef30bd, type: 2}

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: OnSelectChoice
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[{"key":"eventTrigger","label":"Trigger
+      Function","summary":null,"hideLabel":true}],"controlOutputDefinitions":[{"key":"output","label":"Output","summary":null,"hideLabel":true}],"valueInputDefinitions":[{"hasDefaultValue":false,"defaultValue":{"$content":0,"$type":"System.Int32"},"_type":"System.Int32","key":"Option
+      ID","label":"Option ID","summary":"The selected option","hideLabel":false}],"valueOutputDefinitions":[],"title":"On
+      Select Choice","summary":"Used with the BoltDialogueUI to tell the Dialogue
+      Runner which option the player has selected and to advance the story.","pan":{"x":74.0,"y":14.0},"zoom":1.0,"elements":[{"chainable":false,"member":{"name":"SelectOption","parameterTypes":["System.Int32"],"targetType":"Yarn.Unity.Bolt.BoltDialogueUI","targetTypeName":"Yarn.Unity.Bolt.BoltDialogueUI","$version":"A"},"defaultValues":{"target":null,"%optionID":{"$content":0,"$type":"System.Int32"}},"position":{"x":91.0,"y":-115.0},"guid":"940290af-4a94-4996-943d-47af5b76c02a","$version":"A","$type":"Bolt.InvokeMember","$id":"12"},{"defaultValues":{},"position":{"x":-106.0,"y":-116.0},"guid":"01ba7545-f945-4ae8-8e9b-e133b973afdf","$version":"A","$type":"Bolt.GraphInput","$id":"15"},{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{},"position":{"x":-220.0,"y":3.0},"guid":"fcc14d72-ba6b-4c85-a25d-c6804f46ca0d","$version":"A","$type":"Bolt.SuperUnit","$id":"17"},{"defaultValues":{},"position":{"x":277.0,"y":-115.0},"guid":"2fe282a0-e6ea-453c-b5ee-1697be7dbdf2","$version":"A","$type":"Bolt.GraphOutput","$id":"20"},{"sourceUnit":{"$ref":"15"},"sourceKey":"eventTrigger","destinationUnit":{"$ref":"12"},"destinationKey":"enter","guid":"40217a3a-62ab-4eec-9cd8-6887ea52f35f","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"exit","destinationUnit":{"$ref":"20"},"destinationKey":"output","guid":"bf37e09e-d662-4c5e-9f19-92ba71b395be","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"Dialogue
+      UI","destinationUnit":{"$ref":"12"},"destinationKey":"target","guid":"b2b322c1-d483-4650-874a-38d9fa82a7b3","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"Option
+      ID","destinationUnit":{"$ref":"12"},"destinationKey":"%optionID","guid":"7a7eb049-eddb-4551-baaf-2755b2ac8680","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 78d72bccbf368974fa7fe36522ef30bd, type: 2}

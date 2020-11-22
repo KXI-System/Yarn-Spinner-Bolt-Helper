@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: OnDialogueStart
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[{"key":"eventTrigger","label":"Event
+      Trigger","summary":null,"hideLabel":true}],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"On
+      Dialogue Start","summary":"Requires BoltDialogueUI, called when the dialogue
+      starts.","pan":{"x":-99.0,"y":-56.5},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":118.0,"y":-120.0},"guid":"22b18682-5d22-4193-a585-44561ab90943","$version":"A","$type":"Bolt.GraphOutput","$id":"10"},{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{},"position":{"x":-407.0,"y":-127.0},"guid":"7c227907-776b-4684-85f1-994cd465046a","$version":"A","$type":"Bolt.SuperUnit","$id":"12"},{"argumentCount":0,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"DIALOGUE_STARTED","$type":"System.String"}},"position":{"x":-133.0,"y":-125.0},"guid":"0bf85827-9177-492b-ada6-eb18c5e687be","$version":"A","$type":"Bolt.CustomEvent","$id":"15"},{"sourceUnit":{"$ref":"15"},"sourceKey":"trigger","destinationUnit":{"$ref":"10"},"destinationKey":"eventTrigger","guid":"0112ef7b-809e-41b7-9609-e28718c886fb","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"Dialogue
+      Runner GameObject","destinationUnit":{"$ref":"15"},"destinationKey":"target","guid":"9fb784e5-f50e-4610-abe3-cf02ff8bc307","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 78d72bccbf368974fa7fe36522ef30bd, type: 2}

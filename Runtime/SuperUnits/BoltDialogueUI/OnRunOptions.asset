@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: OnRunOptions
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[{"key":"eventTrigger","label":"Event
+      Trigger","summary":null,"hideLabel":true}],"valueInputDefinitions":[],"valueOutputDefinitions":[{"_type":"System.Collections.Generic.List`1[[System.String,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]","key":"Options","label":"Options","summary":"List
+      of Options that are already localised, in order of their correct option ID.","hideLabel":false},{"_type":"System.Int32","key":"Options
+      Count","label":"Options Count","summary":"The total number of options that
+      need to be displayed","hideLabel":false}],"title":"On Run Options","summary":"Requires
+      the BoltDialogueUI, called when a line of options are to be displayed.\nThe
+      list of strings are automatically localised.","pan":{"x":-124.5,"y":-51.0},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":93.0,"y":-118.0},"guid":"700ccd05-e41c-450f-b91c-1097203ee198","$version":"A","$type":"Bolt.GraphOutput","$id":"12"},{"argumentCount":2,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"RUN_OPTIONS","$type":"System.String"}},"position":{"x":-177.0,"y":-123.0},"guid":"b410e8f8-1949-48ba-9083-dfdb9e2e728e","$version":"A","$type":"Bolt.CustomEvent","$id":"14"},{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{},"position":{"x":-461.0,"y":-120.0},"guid":"8d6f7901-3398-4de2-9b16-1dc4444b5b4d","$version":"A","$type":"Bolt.SuperUnit","$id":"16"},{"sourceUnit":{"$ref":"14"},"sourceKey":"trigger","destinationUnit":{"$ref":"12"},"destinationKey":"eventTrigger","guid":"9781e18b-f8ae-4713-a39d-c4d740155cfa","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"Dialogue
+      Runner GameObject","destinationUnit":{"$ref":"14"},"destinationKey":"target","guid":"16d67517-c521-4952-8122-1f0581e9094c","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"argument_0","destinationUnit":{"$ref":"12"},"destinationKey":"Options","guid":"833d8fe6-9e3a-4eba-93fd-353424731a8b","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"argument_1","destinationUnit":{"$ref":"12"},"destinationKey":"Options
+      Count","guid":"51a3c40a-ef9a-451c-a76e-942d0b14bf96","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 78d72bccbf368974fa7fe36522ef30bd, type: 2}

@@ -1,0 +1,25 @@
+title: Start
+---
+Bolty: Hey and welcome to the sample project for the Bolt Yarn Spinner helper!
+Bolty: This is being run with a dialogue UI made entirely in Bolt
+Bolty: Its shockingly easy to get started!
+<<cue laughter>>
+
+-> How Easy?
+	Bolty: Real easy!
+	Bolty: Open up the example flow or use the SuperUnits provided and make your own.
+	
+-> Cool
+	Bolty: Cool
+	Bolty: Well...
+	
+-> Was that a pun?
+	Bolty: Yes.
+	Bolty: ...
+	Bolty: Sue me.
+	Bolty: Anyways...
+
+Bolty: Go out and make a game!
+
+===
+

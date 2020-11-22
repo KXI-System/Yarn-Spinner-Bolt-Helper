@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: OnDialogueComplete
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[{"key":"eventTrigger","label":"Event
+      Trigger","summary":"DialogueRunner OnDialogueComplete event","hideLabel":true}],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"On
+      Dialogue Complete","summary":"Triggered when the Dialogue Runner reaches an
+      end of the dialogue","pan":{"x":83.5,"y":-65.5},"zoom":1.0,"elements":[{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{},"position":{"x":-237.0,"y":-136.0},"guid":"c42738f2-a519-4fe7-b295-e71c31c0341b","$version":"A","$type":"Bolt.SuperUnit","$id":"10"},{"argumentCount":0,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"ON_DIALOGUE_FINISH","$type":"System.String"}},"position":{"x":36.0,"y":-134.0},"guid":"b8da3b34-fc96-4419-b2eb-20220e77f654","$version":"A","$type":"Bolt.CustomEvent","$id":"13"},{"defaultValues":{},"position":{"x":313.0,"y":-129.0},"guid":"5ef9ed37-36f8-4003-82ea-fe959b77dcd2","$version":"A","$type":"Bolt.GraphOutput","$id":"15"},{"sourceUnit":{"$ref":"13"},"sourceKey":"trigger","destinationUnit":{"$ref":"15"},"destinationKey":"eventTrigger","guid":"f4da29bb-416e-437d-979d-16bdac7e61d3","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"10"},"sourceKey":"Dialogue
+      Runner GameObject","destinationUnit":{"$ref":"13"},"destinationKey":"target","guid":"725203ca-031c-4d99-a202-5138fe442c9a","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 78d72bccbf368974fa7fe36522ef30bd, type: 2}

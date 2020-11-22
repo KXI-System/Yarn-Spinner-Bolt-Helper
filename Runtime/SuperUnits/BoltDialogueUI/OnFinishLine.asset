@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: OnFinishLine
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[{"key":"eventTrigger","label":"Trigger
+      Function","summary":null,"hideLabel":true}],"controlOutputDefinitions":[{"key":"output","label":"Output","summary":null,"hideLabel":true}],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"On
+      Finish Line","summary":"Used with the BoltDialogueUI to tell the Dialogue Runner
+      the line is finished displaying and to request the next step.","pan":{"x":0.5,"y":27.5},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":-159.0,"y":-99.0},"guid":"0c8260ba-827c-4ad9-a90b-ed0b50da3ac4","$version":"A","$type":"Bolt.GraphInput","$id":"11"},{"chainable":false,"member":{"name":"FinishLine","parameterTypes":[],"targetType":"Yarn.Unity.Bolt.BoltDialogueUI","targetTypeName":"Yarn.Unity.Bolt.BoltDialogueUI","$version":"A"},"defaultValues":{"target":null},"position":{"x":-3.0,"y":-99.0},"guid":"66633bb3-28f4-4abb-8cff-866adef14033","$version":"A","$type":"Bolt.InvokeMember","$id":"13"},{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{},"position":{"x":-278.0,"y":13.0},"guid":"975c45a9-8472-402e-903c-c79e6babb2d7","$version":"A","$type":"Bolt.SuperUnit","$id":"16"},{"defaultValues":{},"position":{"x":188.0,"y":-99.0},"guid":"fcbe6403-60a6-47fa-a289-123779b7e95c","$version":"A","$type":"Bolt.GraphOutput","$id":"19"},{"sourceUnit":{"$ref":"11"},"sourceKey":"eventTrigger","destinationUnit":{"$ref":"13"},"destinationKey":"enter","guid":"197fe5be-c54b-4311-b44f-b1c1475d7919","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"exit","destinationUnit":{"$ref":"19"},"destinationKey":"output","guid":"84936e7d-ed40-4a45-b8ec-44e0ce0fd20d","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"Dialogue
+      UI","destinationUnit":{"$ref":"13"},"destinationKey":"target","guid":"1a43d322-01cb-4449-81ea-181cee20c142","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 78d72bccbf368974fa7fe36522ef30bd, type: 2}

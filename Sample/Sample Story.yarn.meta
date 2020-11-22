@@ -1,0 +1,32 @@
+fileFormatVersion: 2
+guid: 2d36e7da8e09f944a8020b5bd9a74676
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - Sample Story-Start-0
+  - Sample Story-Start-1
+  - Sample Story-Start-2
+  - Sample Story-Start-3
+  - Sample Story-Start-4
+  - Sample Story-Start-5
+  - Sample Story-Start-6
+  - Sample Story-Start-7
+  - Sample Story-Start-8
+  - Sample Story-Start-9
+  - Sample Story-Start-10
+  - Sample Story-Start-11
+  - Sample Story-Start-12
+  - Sample Story-Start-13
+  - Sample Story-Start-14
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []
