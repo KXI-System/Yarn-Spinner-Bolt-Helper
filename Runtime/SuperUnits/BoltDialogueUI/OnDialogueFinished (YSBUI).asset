@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: OnDialogueFinished (YSBUI)
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[{"key":"eventTrigger","label":"Event
+      Trigger","summary":null,"hideLabel":true}],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"On
+      Dialogue Finished (YSBUI)","summary":"Requires BoltDialogueUI, called when
+      the dialogue is completed.\nOperates Similar to how the On Dialogue Complete
+      Super Unit.","pan":{"x":2.0,"y":0.5},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":221.0,"y":-63.0},"guid":"42d8c6c0-3915-4d04-89b8-61c63910be88","$version":"A","$type":"Bolt.GraphOutput","$id":"10"},{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{},"position":{"x":-308.0,"y":-70.0},"guid":"188dcec6-9df9-4492-a628-1a103a84ca36","$version":"A","$type":"Bolt.SuperUnit","$id":"12"},{"argumentCount":0,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"DIALOGUE_COMPLETED","$type":"System.String"}},"position":{"x":-34.0,"y":-68.0},"guid":"43aae279-4f80-4176-b223-b4f1fbf24109","$version":"A","$type":"Bolt.CustomEvent","$id":"15"},{"sourceUnit":{"$ref":"15"},"sourceKey":"trigger","destinationUnit":{"$ref":"10"},"destinationKey":"eventTrigger","guid":"41690bd9-b374-45fd-bce5-e5af034f50ef","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"Dialogue
+      Runner GameObject","destinationUnit":{"$ref":"15"},"destinationKey":"target","guid":"2c7acf25-9ce3-4726-a4b9-5f124c4f73e7","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 78d72bccbf368974fa7fe36522ef30bd, type: 2}

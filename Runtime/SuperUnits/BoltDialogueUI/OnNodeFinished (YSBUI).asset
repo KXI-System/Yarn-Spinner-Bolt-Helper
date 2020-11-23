@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: OnNodeFinished (YSBUI)
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[{"key":"eventTrigger","label":"Event
+      Trigger","summary":null,"hideLabel":true}],"valueInputDefinitions":[],"valueOutputDefinitions":[{"_type":"System.String","key":"Node
+      Name","label":"Next Node Name","summary":"The name of the node that is going
+      to be run next","hideLabel":false}],"title":"On Node Finished (YSBUI)","summary":"Requires
+      BoltDialogueUI, called when a node is completed.\nOperates similar to OnNodeComplete.","pan":{"x":33.5,"y":0.5},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":241.0,"y":-62.0},"guid":"b497eada-79e9-4d0c-9069-69687b1e1f2a","$version":"A","$type":"Bolt.GraphOutput","$id":"11"},{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{},"position":{"x":-308.0,"y":-70.0},"guid":"ef08d870-ff54-4ea2-ac98-af901a1992d2","$version":"A","$type":"Bolt.SuperUnit","$id":"13"},{"argumentCount":1,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"NODE_COMPLETED","$type":"System.String"}},"position":{"x":-34.0,"y":-68.0},"guid":"c1cb7aed-5c7d-4572-9974-9f0478d73148","$version":"A","$type":"Bolt.CustomEvent","$id":"16"},{"sourceUnit":{"$ref":"16"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"eventTrigger","guid":"88489c2b-65ce-4e42-aa8c-a67149a59351","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"Dialogue
+      Runner GameObject","destinationUnit":{"$ref":"16"},"destinationKey":"target","guid":"6e653d79-996b-4ee9-8ffa-c7c528709f08","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"argument_0","destinationUnit":{"$ref":"11"},"destinationKey":"Node
+      Name","guid":"282ec4ec-b35a-4034-890e-278c7d804dbf","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 78d72bccbf368974fa7fe36522ef30bd, type: 2}
