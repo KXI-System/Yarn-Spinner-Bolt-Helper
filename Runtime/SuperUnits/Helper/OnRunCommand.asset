@@ -14,14 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _data:
     _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[{"key":"eventTrigger","label":"Event
-      Trigger","summary":null,"hideLabel":true}],"valueInputDefinitions":[],"valueOutputDefinitions":[{"_type":"System.String","key":"Command
+      Trigger","summary":null,"hideLabel":true}],"valueInputDefinitions":[{"hasDefaultValue":false,"defaultValue":null,"_type":"Yarn.Unity.Bolt.BoltDialogueUI","key":"BoldtDialogueUI
+      Reference","label":null,"summary":null,"hideLabel":false}],"valueOutputDefinitions":[{"_type":"System.String","key":"Command
       Text","label":"Command Text","summary":null,"hideLabel":false}],"title":"On
       Run Command","summary":"Triggers on the OnCommand event in the from the DialogueUI.\nIf
       you''re using the BoltDialogueUI, then there''s no setup!\nIf you''re using
       the default DialogueUI, setup by subscribing the TriggerOnCommand function
       on the Bolt Helper to the default DialogueUI''s OnCommand event.\nMake sure
-      its the one under the \"Dynamic String\" dropdown!","pan":{"x":-119.5,"y":30.5},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":89.0,"y":-37.0},"guid":"34b3183e-d455-4e5c-8142-643bc6bc10dd","$version":"A","$type":"Bolt.GraphOutput","$id":"11"},{"argumentCount":1,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"RUN_COMMAND","$type":"System.String"}},"position":{"x":-171.0,"y":-42.0},"guid":"b67e1cf4-6066-436f-8df2-4eda68a67a6b","$version":"A","$type":"Bolt.CustomEvent","$id":"13"},{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{},"position":{"x":-455.0,"y":-38.0},"guid":"15cf9298-e180-47ee-b4e6-02eb8d6a2103","$version":"A","$type":"Bolt.SuperUnit","$id":"15"},{"sourceUnit":{"$ref":"13"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"eventTrigger","guid":"5b647605-4535-4328-adca-8a14f6c59658","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"argument_0","destinationUnit":{"$ref":"11"},"destinationKey":"Command
-      Text","guid":"6f5adb21-0848-49aa-ada4-9664fff04f91","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"Dialogue
-      Runner GameObject","destinationUnit":{"$ref":"13"},"destinationKey":"target","guid":"c3d19af2-641d-4e1d-8bf4-ef602a3f5066","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: 78d72bccbf368974fa7fe36522ef30bd, type: 2}
+      its the one under the \"Dynamic String\" dropdown!","pan":{"x":-119.5,"y":30.5},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":89.0,"y":-37.0},"guid":"34b3183e-d455-4e5c-8142-643bc6bc10dd","$version":"A","$type":"Bolt.GraphOutput","$id":"12"},{"argumentCount":1,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"RUN_COMMAND","$type":"System.String"}},"position":{"x":-171.0,"y":-42.0},"guid":"b67e1cf4-6066-436f-8df2-4eda68a67a6b","$version":"A","$type":"Bolt.CustomEvent","$id":"14"},{"defaultValues":{},"position":{"x":-417.0,"y":-37.0},"guid":"f6f26570-e343-4b27-8215-580818bc68a2","$version":"A","$type":"Bolt.GraphInput","$id":"16"},{"sourceUnit":{"$ref":"14"},"sourceKey":"trigger","destinationUnit":{"$ref":"12"},"destinationKey":"eventTrigger","guid":"bf052734-1895-49d3-922b-569fee17b938","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"argument_0","destinationUnit":{"$ref":"12"},"destinationKey":"Command
+      Text","guid":"76409ee7-4747-48b1-adff-7e64d7da4d89","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"BoldtDialogueUI
+      Reference","destinationUnit":{"$ref":"14"},"destinationKey":"target","guid":"d61cb20b-160e-4141-8023-a35d7e52d7a3","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []

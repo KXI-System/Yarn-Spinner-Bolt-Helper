@@ -14,13 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _data:
     _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[{"key":"eventTrigger","label":"Event
-      Trigger","summary":null,"hideLabel":true}],"valueInputDefinitions":[],"valueOutputDefinitions":[{"_type":"System.String","key":"Node
+      Trigger","summary":null,"hideLabel":true}],"valueInputDefinitions":[{"hasDefaultValue":false,"defaultValue":null,"_type":"Yarn.Unity.DialogueRunner","key":"DialogueRunner
+      Reference","label":null,"summary":null,"hideLabel":false}],"valueOutputDefinitions":[{"_type":"System.String","key":"Node
       Name","label":"Node Name","summary":null,"hideLabel":false}],"title":"On Node
       Complete","summary":"Optional Helper, triggers on the OnNodeComplete event
       in the default DialogueUI.\nRequires setup by subscribing the TriggerOnNodeComplete
       function on the Bolt Helper to the default DialogueUI''s OnNodeComplete event.\nMake
-      sure its the one under the \"Dynamic String\" dropdown!","pan":{"x":132.0,"y":-19.0},"zoom":1.0,"elements":[{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{},"position":{"x":-201.0,"y":-87.0},"guid":"03279289-eced-476d-8c35-cd289538e76f","$version":"A","$type":"Bolt.SuperUnit","$id":"11"},{"argumentCount":1,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"ON_NODE_COMPLETE","$type":"System.String"}},"position":{"x":73.0,"y":-92.0},"guid":"046f5aca-3622-4f22-8ef8-cc6df5ca7731","$version":"A","$type":"Bolt.CustomEvent","$id":"14"},{"defaultValues":{},"position":{"x":360.0,"y":-87.0},"guid":"f97eb3b5-2e28-4f3f-ac0f-db1dcb3ccdf4","$version":"A","$type":"Bolt.GraphOutput","$id":"16"},{"sourceUnit":{"$ref":"14"},"sourceKey":"trigger","destinationUnit":{"$ref":"16"},"destinationKey":"eventTrigger","guid":"8d4aed69-c0e7-4f26-87f8-b3777abd954b","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"Dialogue
-      Runner GameObject","destinationUnit":{"$ref":"14"},"destinationKey":"target","guid":"396b77d9-0cef-463e-b395-8d6cb9e128b6","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"argument_0","destinationUnit":{"$ref":"16"},"destinationKey":"Node
-      Name","guid":"2ca17055-e266-4ee6-a640-5261796c64fe","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: 78d72bccbf368974fa7fe36522ef30bd, type: 2}
+      sure its the one under the \"Dynamic String\" dropdown!","pan":{"x":132.0,"y":42.2123},"zoom":1.0,"elements":[{"argumentCount":1,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"ON_NODE_COMPLETE","$type":"System.String"}},"position":{"x":73.0,"y":-92.0},"guid":"046f5aca-3622-4f22-8ef8-cc6df5ca7731","$version":"A","$type":"Bolt.CustomEvent","$id":"12"},{"defaultValues":{},"position":{"x":360.0,"y":-87.0},"guid":"f97eb3b5-2e28-4f3f-ac0f-db1dcb3ccdf4","$version":"A","$type":"Bolt.GraphOutput","$id":"14"},{"defaultValues":{},"position":{"x":-179.0,"y":-87.0},"guid":"b15a43fc-a771-4818-9474-3eaaf4cc980e","$version":"A","$type":"Bolt.GraphInput","$id":"16"},{"sourceUnit":{"$ref":"12"},"sourceKey":"trigger","destinationUnit":{"$ref":"14"},"destinationKey":"eventTrigger","guid":"f5a448e2-f1f8-45d9-a5ab-1602266ffe4e","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"argument_0","destinationUnit":{"$ref":"14"},"destinationKey":"Node
+      Name","guid":"78c5a3fa-a164-4d35-9609-125e21acbe06","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"DialogueRunner
+      Reference","destinationUnit":{"$ref":"12"},"destinationKey":"target","guid":"51be795f-0c49-4890-ad0a-628706cd1fc4","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
